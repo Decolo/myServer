@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "noEmitOnError": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "watch": true,
+    "rootDir": "./server",
+    "outDir": "./server/_server",
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "diagnostics": true,
+    "emitBOM": true
+  },
+  "typeRoots": [
+      "node_module/@types"
+  ],
+  "include": [
+    "server/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "myServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./server/index.ts",
+    "tsc": "./node_modules/.bin/tsc ",
+    "dev": "nodemon --inspect ./server/_server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "@types/es6-promise": "^3.3.0",
+    "@types/mime": "^2.0.0",
+    "nodemon": "^1.17.2",
+    "npm": "^5.8.0",
+    "ts-node": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.4",
+    "mime": "^2.2.0",
+    "node-inspect": "^1.11.3",
+    "supervisor": "^0.12.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  }
+}
